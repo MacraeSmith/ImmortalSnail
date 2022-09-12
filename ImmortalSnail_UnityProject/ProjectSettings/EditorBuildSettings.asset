@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Macrae.unity
+    guid: 698a3e8cc3b88264786d80c9c280bbbb
   m_configObjects: {}
