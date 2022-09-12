@@ -499,3 +499,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1782.446100 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aaee2c5e0b7a702857a2c9d1158e783') in 0.010724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.502644 seconds.
+  path: Assets/Scenes/Macrae.unity
+  artifactKey: Guid(698a3e8cc3b88264786d80c9c280bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Macrae.unity using Guid(698a3e8cc3b88264786d80c9c280bbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bf507715a98243065c04a7100cd8d2') in 0.006371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.598710 seconds.
+  path: Assets/Scenes/Owen.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Owen.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe9c30424579d3a91884d51ea6aae52') in 0.006495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.412266 seconds.
+  path: Assets/Scenes/Thomas.unity
+  artifactKey: Guid(0e8446804d3074dd3be704eccea589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Thomas.unity using Guid(0e8446804d3074dd3be704eccea589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11cde9dc215f50bf9f183cc08729940d') in 0.006441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.983137 seconds.
+  path: Assets/Scenes/Macrae 1.unity
+  artifactKey: Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Macrae 1.unity using Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc8b690d10535fce805251851c66091') in 0.001103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.503454 seconds.
+  path: Assets/Scenes/Main Game.unity
+  artifactKey: Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Game.unity using Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fa3ca3aa554070417c3cf36dca015a') in 0.001098 seconds 
