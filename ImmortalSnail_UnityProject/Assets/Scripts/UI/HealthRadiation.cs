@@ -29,6 +29,7 @@ public class HealthRadiation : MonoBehaviour
     public TextMeshProUGUI radiationUI;
     string radiationText;
     public float radiationStage = 0;
+    public Slider radiationSlider;
 
     [Header("-Stations-")]
     public int numStationsOn = 0;
@@ -85,14 +86,15 @@ public class HealthRadiation : MonoBehaviour
     private void UpdateHealthUI() //REFRESHES HEALTH COUNTER UI
     {
         healthText = healthTotal.ToString();
-        healthUI.SetText("Health: " + healthText);
+        healthUI.SetText(healthText);
         healthSlider.value = healthTotal;
     }
 
     private void UpdateRadiationUI() //REFRESHES RADIATION COUNTER UI
     {
         radiationText = radiationTotal.ToString();
-        radiationUI.SetText("Radiation: " + radiationText);
+        radiationUI.SetText(radiationText);
+        radiationSlider.value = radiationTotal;
     }
 
     private void Die()
