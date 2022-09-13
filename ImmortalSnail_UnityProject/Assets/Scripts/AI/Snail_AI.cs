@@ -6,13 +6,16 @@ using UnityEngine.AI;
 public class Snail_AI : MonoBehaviour
 {
     public NavMeshAgent agent;
-    public Transform player;
-    public LayerMask Ground, Player;
     public Animator anim;
 
-    public Vector3 walkPoint;
+    
+    public LayerMask Ground, Player;
+    public Transform player;
+    public GameObject snailSpawn;
+
+    private Vector3 walkPoint;
     bool walkPointSet;
-    public float walkPointRange = 10f;
+    public float patrolRange = 10f;
 
     public float sightRange = 20f, attackRange = 3f;
 
@@ -21,8 +24,11 @@ public class Snail_AI : MonoBehaviour
     public float timeBetweenAttacks = .5f;
     bool alreadyAttacked;
 
+    [Range(1f,4f)]
     public int snailLevel = 1;
+    [Range(5f,300f)]
     public float snailUpgradeSpeed = 5f;
+
 
 
 
@@ -91,7 +97,10 @@ public class Snail_AI : MonoBehaviour
 
             //this.anim.SetBool("Walk Backward Fast", false);
             //this.anim.SetBool("Walk Forward Fast", true);\
+            
             this.anim.SetTrigger("Attack");
+
+            
 
 
             agent.SetDestination(transform.position); // need to add run away from player
@@ -148,10 +157,22 @@ public class Snail_AI : MonoBehaviour
             sightRange = 1000f;
             attackRange = 3f;
         }
+        else if(snailLevel == 5)
+        {
+            agent.speed = 0f;
+            GameObject spawn = Instantiate(this.snailSpawn);
+            snailSpawn.SetActive(true);
+            snailSpawn.transform.SetParent(null);
+            snailLevel = 6;
+
+        }
         else
         {
-            snailLevel = 4;
+            transform.localScale = new Vector3(4, 4, 4);
 
+            agent.speed = 5f;
+            sightRange = 1000f;
+            attackRange = 3f;
         }
     }
     private void Patroling()//ENEMY WALKS AROUND 
@@ -161,6 +182,7 @@ public class Snail_AI : MonoBehaviour
         if (walkPointSet)
         {
             agent.SetDestination(walkPoint);
+            //agent.speed = 2f;
 
         }
 
@@ -169,6 +191,7 @@ public class Snail_AI : MonoBehaviour
         if (distanceToWalkPoint.magnitude <= 1f)
         {
             walkPointSet = false;
+            //agent.speed = .5f;
             
         }
        
@@ -179,8 +202,8 @@ public class Snail_AI : MonoBehaviour
 
     private void SearchWalkPoint() //ENEMY FINDS WHERE TO WALK TO
     {
-        float randomZ = Random.Range(-walkPointRange, walkPointRange);
-        float randomX = Random.Range(-walkPointRange, walkPointRange);
+        float randomZ = Random.Range(-patrolRange, patrolRange);
+        float randomX = Random.Range(-patrolRange, patrolRange);
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
@@ -198,13 +221,18 @@ public class Snail_AI : MonoBehaviour
     {
         while (snailLevel <= 4)
         {
-            
             yield return new WaitForSeconds(snailUpgradeSpeed);
             snailLevel++;
-
+            
         }
 
 
-    }
 
+    }
+    
+    
+        
+
+
+    
 }
