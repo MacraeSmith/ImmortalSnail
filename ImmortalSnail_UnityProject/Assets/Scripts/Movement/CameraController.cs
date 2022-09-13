@@ -46,7 +46,7 @@ public class CameraController : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
         
         xRotation -= mouseY;
-        xRotation = Mathf.Clamp(xRotation, -75f, 75f);
+        xRotation = Mathf.Clamp(xRotation, -30f, 75f);
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         parent.Rotate(Vector3.up, mouseX);  
