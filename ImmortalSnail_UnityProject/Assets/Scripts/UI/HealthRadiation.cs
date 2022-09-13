@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -21,6 +22,7 @@ public class HealthRadiation : MonoBehaviour
     public TextMeshProUGUI healthUI;
     string healthText;
     public bool inHealingPad = false;
+    public Slider healthSlider;
 
     [Header("-Radiation Points-")]
     public float radiationTotal = 0;
@@ -84,6 +86,7 @@ public class HealthRadiation : MonoBehaviour
     {
         healthText = healthTotal.ToString();
         healthUI.SetText("Health: " + healthText);
+        healthSlider.value = healthTotal;
     }
 
     private void UpdateRadiationUI() //REFRESHES RADIATION COUNTER UI
