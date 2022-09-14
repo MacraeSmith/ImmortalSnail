@@ -18,17 +18,20 @@ public class HealthRadiation : MonoBehaviour
     //public AudioSource deathSound;
 
     [Header("-Health Points-")]
-    public float healthTotal = 100;
+    [Range(0,100)]
+    public int healthTotal = 100;
     public TextMeshProUGUI healthUI;
     string healthText;
     public bool inHealingPad = false;
     public Slider healthSlider;
 
     [Header("-Radiation Points-")]
-    public float radiationTotal = 0;
+    [Range(0,100)]
+    public int radiationTotal = 0;
     public TextMeshProUGUI radiationUI;
     string radiationText;
-    public float radiationStage = 0;
+    [Range(0,5)]
+    public int radiationStage = 0;
     public Slider radiationSlider;
 
     [Header("-Stations-")]
