@@ -59,6 +59,7 @@
     <Compile Include="Assets/Scripts/Movement/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/Movement/CameraController.cs" />
     <Compile Include="Assets/Scripts/UI/HealthRadiation.cs" />
+    <Compile Include="Assets/MenuAssets/Manager.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs" />
     <Compile Include="Assets/Scripts/AI/EnemyAI.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs" />
