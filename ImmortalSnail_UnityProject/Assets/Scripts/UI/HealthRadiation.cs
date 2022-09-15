@@ -20,7 +20,6 @@ public class HealthRadiation : MonoBehaviour
     [Header("-Health Points-")]
     public float healthTotal = 100;
     //public TextMeshProUGUI healthUI;
-    string healthText;
     public bool inHealingPad = false;
     public GameObject HP1;
     public GameObject HP2;
@@ -36,8 +35,6 @@ public class HealthRadiation : MonoBehaviour
 
     [Header("-Radiation Points-")]
     public float radiationTotal = 0;
-    public TextMeshProUGUI radiationUI;
-    string radiationText;
     public float radiationStage = 0;
     public Slider radiationSlider;
 
@@ -95,8 +92,6 @@ public class HealthRadiation : MonoBehaviour
 
     private void UpdateHealthUI() //REFRESHES HEALTH COUNTER UI
     {
-        healthText = healthTotal.ToString();
-        //healthUI.SetText(healthText);
 
         if (healthTotal < 1)
         {
@@ -156,6 +151,18 @@ public class HealthRadiation : MonoBehaviour
         {
             HP9.SetActive(true);
             HP10.SetActive(false);
+        } else if (healthTotal > 90)
+        {
+            HP1.SetActive(true);
+            HP2.SetActive(true);
+            HP3.SetActive(true);
+            HP4.SetActive(true);
+            HP5.SetActive(true);
+            HP6.SetActive(true);
+            HP7.SetActive(true);
+            HP8.SetActive(true);
+            HP9.SetActive(true);
+            HP10.SetActive(true);
         }
 
         //healthSlider.value = healthTotal;
@@ -163,8 +170,6 @@ public class HealthRadiation : MonoBehaviour
 
     private void UpdateRadiationUI() //REFRESHES RADIATION COUNTER UI
     {
-        radiationText = radiationTotal.ToString();
-        radiationUI.SetText(radiationText);
         radiationSlider.value = radiationTotal;
     }
 
