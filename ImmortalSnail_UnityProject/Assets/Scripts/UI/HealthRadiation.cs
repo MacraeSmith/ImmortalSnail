@@ -18,20 +18,27 @@ public class HealthRadiation : MonoBehaviour
     //public AudioSource deathSound;
 
     [Header("-Health Points-")]
-    [Range(0,100)]
-    public int healthTotal = 100;
-    public TextMeshProUGUI healthUI;
+    public float healthTotal = 100;
+    //public TextMeshProUGUI healthUI;
     string healthText;
     public bool inHealingPad = false;
-    public Slider healthSlider;
+    public GameObject HP1;
+    public GameObject HP2;
+    public GameObject HP3;
+    public GameObject HP4;
+    public GameObject HP5;
+    public GameObject HP6;
+    public GameObject HP7;
+    public GameObject HP8;
+    public GameObject HP9;
+    public GameObject HP10;
+    //public Slider healthSlider;
 
     [Header("-Radiation Points-")]
-    [Range(0,100)]
-    public int radiationTotal = 0;
+    public float radiationTotal = 0;
     public TextMeshProUGUI radiationUI;
     string radiationText;
-    [Range(0,5)]
-    public int radiationStage = 0;
+    public float radiationStage = 0;
     public Slider radiationSlider;
 
     [Header("-Stations-")]
@@ -89,8 +96,69 @@ public class HealthRadiation : MonoBehaviour
     private void UpdateHealthUI() //REFRESHES HEALTH COUNTER UI
     {
         healthText = healthTotal.ToString();
-        healthUI.SetText(healthText);
-        healthSlider.value = healthTotal;
+        //healthUI.SetText(healthText);
+
+        if (healthTotal < 1)
+        {
+            HP1.SetActive(false);
+            HP2.SetActive(false);
+            HP3.SetActive(false);
+            HP4.SetActive(false);
+            HP5.SetActive(false);
+            HP6.SetActive(false);
+            HP7.SetActive(false);
+            HP8.SetActive(false);
+            HP9.SetActive(false);
+            HP10.SetActive(false);
+        }
+        else if (healthTotal < 10)
+        {
+            HP1.SetActive(true);
+            HP2.SetActive(false);
+        }
+        else if (healthTotal < 20)
+        {
+            HP2.SetActive(true);
+            HP3.SetActive(false);
+        }
+        else if (healthTotal < 30)
+        {
+
+            HP3.SetActive(true);
+            HP4.SetActive(false);
+        }
+        else if (healthTotal < 40)
+        {
+            HP4.SetActive(true);
+            HP5.SetActive(false);
+        }
+        else if (healthTotal < 50)
+        {
+            HP5.SetActive(true);
+            HP6.SetActive(false);
+        }
+        else if (healthTotal < 60)
+        {
+            HP6.SetActive(true);
+            HP7.SetActive(false);
+        }
+        else if (healthTotal < 70)
+        {
+            HP7.SetActive(true);
+            HP8.SetActive(false);
+        }
+        else if (healthTotal < 80)
+        {
+            HP8.SetActive(true);
+            HP9.SetActive(false);
+        }
+        else if (healthTotal < 90)
+        {
+            HP9.SetActive(true);
+            HP10.SetActive(false);
+        }
+
+        //healthSlider.value = healthTotal;
     }
 
     private void UpdateRadiationUI() //REFRESHES RADIATION COUNTER UI
