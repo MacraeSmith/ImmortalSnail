@@ -339,6 +339,7 @@
 "Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs"
 "Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs"
 "Assets/Scripts/DiedScreen.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/SceneUI.cs"
 "Assets/Scripts/UI/HealthRadiation.cs"
 -langversion:9.0

@@ -60,6 +60,7 @@
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs" />
     <Compile Include="Assets/Scripts/SceneUI.cs" />
+    <Compile Include="Assets/Scripts/PauseMenu.cs" />
     <Compile Include="Assets/Scripts/DiedScreen.cs" />
   </ItemGroup>
   <ItemGroup>
