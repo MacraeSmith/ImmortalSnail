@@ -62,6 +62,10 @@
     <Compile Include="Assets/Scripts/SceneUI.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs" />
     <Compile Include="Assets/Scripts/DiedScreen.cs" />
+    <Compile Include="Assets/Scripts/AI/Snail_AI.cs" />
+    <Compile Include="Assets/Scripts/AI/EnemyAI.cs" />
+    <Compile Include="Assets/Scripts/Movement/CameraController.cs" />
+    <Compile Include="Assets/Scripts/Movement/PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
