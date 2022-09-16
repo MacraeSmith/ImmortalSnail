@@ -893,19 +893,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthTotal: 100
   inHealingPad: 0
-  HP1: {fileID: 0}
-  HP2: {fileID: 0}
-  HP3: {fileID: 0}
-  HP4: {fileID: 0}
-  HP5: {fileID: 0}
-  HP6: {fileID: 0}
-  HP7: {fileID: 0}
-  HP8: {fileID: 0}
-  HP9: {fileID: 0}
-  HP10: {fileID: 0}
+  HP1: {fileID: 529949520}
+  HP2: {fileID: 1035875392}
+  HP3: {fileID: 1068405505}
+  HP4: {fileID: 1186448248}
+  HP5: {fileID: 1335735037}
+  HP6: {fileID: 906400406}
+  HP7: {fileID: 2044723223}
+  HP8: {fileID: 2025726909}
+  HP9: {fileID: 1887513727}
+  HP10: {fileID: 550366361}
   radiationTotal: 0
   radiationStage: 0
-  radiationSlider: {fileID: 0}
+  radiationSlider: {fileID: 365298896}
   numStationsOn: 0
 --- !u!114 &637548841
 MonoBehaviour:

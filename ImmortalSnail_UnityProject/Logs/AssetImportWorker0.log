@@ -439,3 +439,21 @@ Received Import Request.
   path: Assets/Sprites/Snail Warning UI/text overlay.png
   artifactKey: Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Snail Warning UI/text overlay.png using Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ac41e9c8da6a0071ca37ad3004e4da') in 0.052810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.749693 seconds.
+  path: Assets/Scenes/Thomas.unity
+  artifactKey: Guid(0e8446804d3074dd3be704eccea589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Thomas.unity using Guid(0e8446804d3074dd3be704eccea589ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7175af90cf869d9d9f0ca1e818c779fd') in 0.001275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.772400 seconds.
+  path: Assets/Scripts/UI/HealthRadiation.cs
+  artifactKey: Guid(9036a0146224c48949efe41fdec59174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/HealthRadiation.cs using Guid(9036a0146224c48949efe41fdec59174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b319de4480e21bb387adffd6bc0fc9d') in 0.382888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.002386 seconds.
+  path: Assets/Scenes/Main Game.unity
+  artifactKey: Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Game.unity using Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79667370c79d4f37a4dd8f68bc184026') in 0.001155 seconds 
