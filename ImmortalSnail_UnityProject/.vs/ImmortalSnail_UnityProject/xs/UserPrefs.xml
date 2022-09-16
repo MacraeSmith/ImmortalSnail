@@ -1,13 +1,12 @@
 ﻿<Properties StartupConfiguration="{418EE28F-8E49-564B-322F-AF9FAC612E74}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3c902dec-2775-4505-9066-7e3dcd6412f4" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/HealthRadiation.cs">
     <Files>
-      <File FileName="Assets/Scripts/UI/HealthRadiation.cs" Line="163" Column="33" />
+      <File FileName="Assets/Scripts/UI/HealthRadiation.cs" Line="157" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -25,5 +24,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9ec974a9-c8a2-4bcb-8d2f-04b900730099" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

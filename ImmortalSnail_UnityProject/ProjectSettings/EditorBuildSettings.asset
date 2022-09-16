@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Macrae.unity
     guid: 698a3e8cc3b88264786d80c9c280bbbb
+  - enabled: 1
+    path: Assets/Scenes/Start Screen.unity
+    guid: 07265fcd689144365b502c468fecd76d
+  - enabled: 1
+    path: Assets/Scenes/Main Game.unity
+    guid: 8deb2e223ec044aae9c96700794d5477
   m_configObjects: {}

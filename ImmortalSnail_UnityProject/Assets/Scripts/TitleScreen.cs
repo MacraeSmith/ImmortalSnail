@@ -7,6 +7,7 @@ public class TitleScreen : MonoBehaviour
 {
 
     public string newGameScene;
+    public GameObject controlsWindow;
 
     public void NewGame()
     {
@@ -17,6 +18,16 @@ public class TitleScreen : MonoBehaviour
     {
         Debug.Log("Quitting Game...");
         Application.Quit();
+    }
+
+    public void OpenControlsWindow()
+    {
+        controlsWindow.SetActive(true);
+    }
+
+    public void CloseControlsWindow()
+    {
+        controlsWindow.SetActive(false);
     }
 
 }
