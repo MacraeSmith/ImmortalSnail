@@ -54,6 +54,7 @@ public class HealthRadiation : MonoBehaviour
 
     void Update()
     {
+        
         if (healthTotal <= 0 || radiationTotal >= 100) //KILLS PLAYER IF HEALTH = 0 OR RADIATION = 100
         {
             UpdateHealthUI();
