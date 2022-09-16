@@ -4,9 +4,10 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UI/HealthRadiation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SceneUI.cs">
     <Files>
       <File FileName="Assets/Scripts/UI/HealthRadiation.cs" Line="157" Column="16" />
+      <File FileName="Assets/Scripts/SceneUI.cs" Line="13" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

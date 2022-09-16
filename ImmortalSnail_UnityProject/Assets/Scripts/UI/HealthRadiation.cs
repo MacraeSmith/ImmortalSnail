@@ -41,6 +41,8 @@ public class HealthRadiation : MonoBehaviour
     [Header("-Stations-")]
     public int numStationsOn = 0;
 
+    public GameObject dieScreen;
+
     void Start()
     {
         //this.anim.SetBool("Dead", false);
@@ -183,6 +185,8 @@ public class HealthRadiation : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        dieScreen.SetActive(true);
     }
 
     IEnumerator HealthMeter()

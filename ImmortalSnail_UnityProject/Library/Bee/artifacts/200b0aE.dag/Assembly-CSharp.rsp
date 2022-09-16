@@ -338,7 +338,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs"
 "Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs"
-"Assets/Scripts/Pause Menu.cs"
+"Assets/Scripts/DiedScreen.cs"
 "Assets/Scripts/SceneUI.cs"
 "Assets/Scripts/UI/HealthRadiation.cs"
 -langversion:9.0

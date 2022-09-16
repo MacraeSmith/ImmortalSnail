@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 public class SceneUI : MonoBehaviour
 {
 
+    public void Update()
+    {
+
+    }
     public string newGameScene;
     public GameObject controlsWindow;
 
