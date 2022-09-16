@@ -452,7 +452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2417966281775240542, guid: 1614bc6b5775b2c40a8fcbc4d68a5b83, type: 3}
       propertyPath: radiationTotal
-      value: 75
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2417966281775240542, guid: 1614bc6b5775b2c40a8fcbc4d68a5b83, type: 3}
       propertyPath: radiationSlider
