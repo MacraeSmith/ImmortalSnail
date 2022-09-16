@@ -385,3 +385,57 @@ Received Import Request.
   path: Assets/Sprites/Health bar/HP Bars/HP Bar 10.png
   artifactKey: Guid(ff2a886939739432d86aa96b3cf787db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Health bar/HP Bars/HP Bar 10.png using Guid(ff2a886939739432d86aa96b3cf787db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b235b14ac24ac4c4593376580b48080c') in 0.146298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 223.827538 seconds.
+  path: Assets/Sprites/Untitled-1.png
+  artifactKey: Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Untitled-1.png using Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809b9784cefcf85c18f2c773bf9c8e39') in 0.016189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.011695 seconds.
+  path: Assets/Sprites/Untitled-1.png
+  artifactKey: Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Untitled-1.png using Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0211c055e1c7c7f544d610b5e00719') in 0.012843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.764823 seconds.
+  path: Assets/Sprites/Untitled-1.png
+  artifactKey: Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Untitled-1.png using Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b73777f80748ffa08153e3681e21022') in 0.021782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.359841 seconds.
+  path: Assets/Sprites/Radiation Bar Overlay.png
+  artifactKey: Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Radiation Bar Overlay.png using Guid(3cee184c1b34e4e80b67dafcf568723f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dc63be6af71e506df876a345610454') in 0.049814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.017965 seconds.
+  path: Assets/Sprites/Snail Warning UI/biohazard-warning-on-yellow-triangle-sign-clip-art_csp5584992-27186358.png
+  artifactKey: Guid(c5fd3b39b3f2343d6af2d674e08c77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snail Warning UI/biohazard-warning-on-yellow-triangle-sign-clip-art_csp5584992-27186358.png using Guid(c5fd3b39b3f2343d6af2d674e08c77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7fbec35d947618630b0b2714e5d824') in 0.016546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.171295 seconds.
+  path: Assets/Sprites/Snail Warning UI/biohazard-warning-on-yellow-triangle-sign-clip-art_csp5584992-27186358.png
+  artifactKey: Guid(c5fd3b39b3f2343d6af2d674e08c77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snail Warning UI/biohazard-warning-on-yellow-triangle-sign-clip-art_csp5584992-27186358.png using Guid(c5fd3b39b3f2343d6af2d674e08c77ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2af37c3ce234d54d332e7715bf40ba4') in 0.019101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.162546 seconds.
+  path: Assets/Sprites/Snail Warning UI/text overlay.png
+  artifactKey: Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snail Warning UI/text overlay.png using Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d540c6a00139af14685b3a9f065bac') in 0.014270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.058441 seconds.
+  path: Assets/Sprites/Snail Warning UI/text overlay.png
+  artifactKey: Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snail Warning UI/text overlay.png using Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7074f6d82aec5598bfe1a2fae2956a8') in 0.017456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.838621 seconds.
+  path: Assets/Sprites/Snail Warning UI/text overlay.png
+  artifactKey: Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Snail Warning UI/text overlay.png using Guid(a2698b25285c5485a9803260a6c538d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ac41e9c8da6a0071ca37ad3004e4da') in 0.052810 seconds 
