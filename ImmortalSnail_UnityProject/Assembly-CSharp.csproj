@@ -59,7 +59,8 @@
     <Compile Include="Assets/Scripts/UI/HealthRadiation.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs" />
     <Compile Include="Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/Customizer.cs" />
-    <Compile Include="Assets/Scripts/TitleScreen.cs" />
+    <Compile Include="Assets/Scripts/SceneUI.cs" />
+    <Compile Include="Assets/Scripts/Pause Menu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
