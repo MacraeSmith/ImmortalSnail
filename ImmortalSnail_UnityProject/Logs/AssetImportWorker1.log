@@ -169,3 +169,9 @@ Received Import Request.
   path: Assets/Scenes/Main Game.unity
   artifactKey: Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Main Game.unity using Guid(8deb2e223ec044aae9c96700794d5477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1884aabc3f6d16eafaa424373c2ababe') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 356.661960 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1399baaafacc37aa733a1c2ab0fc965d') in 0.380075 seconds 

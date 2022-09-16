@@ -163,3 +163,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1287054.882867 seconds.
+  path: Assets/Scenes/Owen.unity
+  artifactKey: Guid(6b52261548526424384416d41f0de5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Owen.unity using Guid(6b52261548526424384416d41f0de5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d25d34715b689f25fbc0393817f5a5') in 0.008442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.881417 seconds.
+  path: Assets/Scenes/Start Screen.unity
+  artifactKey: Guid(07265fcd689144365b502c468fecd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Screen.unity using Guid(07265fcd689144365b502c468fecd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005e9696337bf4b16eea004d127b49a') in 0.003062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.335370 seconds.
+  path: Assets/Scenes/Start Screen.unity
+  artifactKey: Guid(07265fcd689144365b502c468fecd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Screen.unity using Guid(07265fcd689144365b502c468fecd76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5815080ef4dbd8601ded4d3d7dcb8ab3') in 0.006617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.744107 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73f0b80391b752b66d5fc1626e868f6') in 0.417088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.599503 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.006711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056164 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 2.113654 seconds 
