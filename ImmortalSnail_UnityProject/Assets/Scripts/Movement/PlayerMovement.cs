@@ -41,7 +41,7 @@ public class PlayerMovement : MonoBehaviour
         
         if (isGrounded)
         {
-            Debug.Log("Is Grounded");
+            //Debug.Log("Is Grounded");
             if (velocity.y <0 && velocity.y > -50) 
             {
                 velocity.y = -8f;

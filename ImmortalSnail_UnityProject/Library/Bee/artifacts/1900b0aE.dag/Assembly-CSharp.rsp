@@ -346,6 +346,7 @@
 "Assets/Models/Akishaqs/Characters/_CommonFiles/_DemoStuff/Scripts/DragToRotate.cs"
 "Assets/Scripts/AI/EnemyAI.cs"
 "Assets/Scripts/AI/Snail_AI.cs"
+"Assets/Scripts/Console/Station.cs"
 "Assets/Scripts/DiedScreen.cs"
 "Assets/Scripts/Movement/CameraController.cs"
 "Assets/Scripts/Movement/PlayerMovement.cs"

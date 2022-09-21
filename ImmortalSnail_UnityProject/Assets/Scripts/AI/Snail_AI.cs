@@ -36,7 +36,7 @@ public class Snail_AI : MonoBehaviour
     void Start()
     {
         StartCoroutine(SnailUpgrade());
-        player = GameObject.Find("Player").transform;
+        //player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
         //agent.SetDestination(player.position);
     }
